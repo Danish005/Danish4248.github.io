@@ -1,3 +1,3 @@
 # TheBinitGhimire.github.io
 
-Offical Site for Binit Ghimire.
+Binit Ghimire | A Tech Enthusiastic Web Developer and Programmer from Nepal!
