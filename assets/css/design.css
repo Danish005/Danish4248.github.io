@@ -81,6 +81,30 @@ table {
 	color: #ff0066;
 }
 
+.WHOIS-Actioner{
+	display: none;
+}
+
+.WHOIS-Further{
+	display: none;
+	transition: .25s ease;
+}
+
+.WHOIS-Actioner:checked ~ .WHOIS-Read .WHOIS-Further{
+	display: inline-block;
+	opacity: 1;
+	font-size: inherit;
+	max-height: 999em;
+}
+
+.WHOIS-Actioner ~ .WHOIS-ReadActioner:before{content:'[+] READ MORE [+]'}
+.WHOIS-Actioner:checked ~ .WHOIS-ReadActioner:before{content:'[-] READ LESS [-]'}
+
+#WHOIS-ReadActioner{
+	cursor: pointer;
+	display: block;
+}
+
 a {
 	color: #99c7e8;
 	text-decoration: none;
